@@ -1,0 +1,29 @@
+PODS:
+  - githooksA (0.1.0)
+  - githooksB (0.1.0)
+
+DEPENDENCIES:
+  - githooksA (from `https://github.com/dirtmelon/githooksA.git`)
+  - githooksB (from `https://github.com/dirtmelon/githooksB.git`)
+
+EXTERNAL SOURCES:
+  githooksA:
+    :git: https://github.com/dirtmelon/githooksA.git
+  githooksB:
+    :git: https://github.com/dirtmelon/githooksB.git
+
+CHECKOUT OPTIONS:
+  githooksA:
+    :commit: 1b5fb3d0f9006f51c779d86229a107f385756250
+    :git: https://github.com/dirtmelon/githooksA.git
+  githooksB:
+    :commit: 90d5b71cf5208af085926d8244937639aae0fb3f
+    :git: https://github.com/dirtmelon/githooksB.git
+
+SPEC CHECKSUMS:
+  githooksA: c53d2beb2888cf396f5531865c8316bfe4d2d279
+  githooksB: 62fed11a58fe2018f143c8eb68bd83720794fdb3
+
+PODFILE CHECKSUM: e7544a8330038b342070e120e430398474c383cc
+
+COCOAPODS: 1.10.1

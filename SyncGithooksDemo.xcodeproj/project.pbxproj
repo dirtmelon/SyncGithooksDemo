@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CF62B1F265A601E0077B472 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF62B1E265A601E0077B472 /* AppDelegate.swift */; };
+		8CF62B21265A601E0077B472 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF62B20265A601E0077B472 /* ViewController.swift */; };
+		8CF62B23265A60200077B472 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF62B22265A60200077B472 /* Assets.xcassets */; };
+		8CF62B26265A60200077B472 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF62B24265A60200077B472 /* Main.storyboard */; };
+		B5FA92256D4686B6A9FB999A /* libPods-SyncGithooksDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1F8F6D39342C785490C47D1 /* libPods-SyncGithooksDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AA294FB6254509D968E1BCB /* Pods-SyncGithooksDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncGithooksDemo.release.xcconfig"; path = "Target Support Files/Pods-SyncGithooksDemo/Pods-SyncGithooksDemo.release.xcconfig"; sourceTree = "<group>"; };
+		8CF62B1B265A601E0077B472 /* SyncGithooksDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncGithooksDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF62B1E265A601E0077B472 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8CF62B20265A601E0077B472 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CF62B22265A60200077B472 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8CF62B25265A60200077B472 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8CF62B27265A60200077B472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CF62B28265A60200077B472 /* SyncGithooksDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SyncGithooksDemo.entitlements; sourceTree = "<group>"; };
+		CE9D13F90E375B7CE1DD6877 /* Pods-SyncGithooksDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SyncGithooksDemo.debug.xcconfig"; path = "Target Support Files/Pods-SyncGithooksDemo/Pods-SyncGithooksDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D1F8F6D39342C785490C47D1 /* libPods-SyncGithooksDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SyncGithooksDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF62B18265A601E0077B472 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5FA92256D4686B6A9FB999A /* libPods-SyncGithooksDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6780BD74F518A2D20064B24E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D1F8F6D39342C785490C47D1 /* libPods-SyncGithooksDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF62B12265A601E0077B472 = {
+			isa = PBXGroup;
+			children = (
+				8CF62B1D265A601E0077B472 /* SyncGithooksDemo */,
+				8CF62B1C265A601E0077B472 /* Products */,
+				D21C7CC86D1B8DB83230B1E5 /* Pods */,
+				6780BD74F518A2D20064B24E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF62B1C265A601E0077B472 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF62B1B265A601E0077B472 /* SyncGithooksDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF62B1D265A601E0077B472 /* SyncGithooksDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8CF62B1E265A601E0077B472 /* AppDelegate.swift */,
+				8CF62B20265A601E0077B472 /* ViewController.swift */,
+				8CF62B22265A60200077B472 /* Assets.xcassets */,
+				8CF62B24265A60200077B472 /* Main.storyboard */,
+				8CF62B27265A60200077B472 /* Info.plist */,
+				8CF62B28265A60200077B472 /* SyncGithooksDemo.entitlements */,
+			);
+			path = SyncGithooksDemo;
+			sourceTree = "<group>";
+		};
+		D21C7CC86D1B8DB83230B1E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE9D13F90E375B7CE1DD6877 /* Pods-SyncGithooksDemo.debug.xcconfig */,
+				1AA294FB6254509D968E1BCB /* Pods-SyncGithooksDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF62B1A265A601E0077B472 /* SyncGithooksDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF62B2B265A60200077B472 /* Build configuration list for PBXNativeTarget "SyncGithooksDemo" */;
+			buildPhases = (
+				BADA80687AD425E3608DD3D9 /* [CP] Check Pods Manifest.lock */,
+				8CF62B17265A601E0077B472 /* Sources */,
+				8CF62B18265A601E0077B472 /* Frameworks */,
+				8CF62B19265A601E0077B472 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SyncGithooksDemo;
+			productName = SyncGithooksDemo;
+			productReference = 8CF62B1B265A601E0077B472 /* SyncGithooksDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF62B13265A601E0077B472 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					8CF62B1A265A601E0077B472 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 8CF62B16265A601E0077B472 /* Build configuration list for PBXProject "SyncGithooksDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8CF62B12265A601E0077B472;
+			productRefGroup = 8CF62B1C265A601E0077B472 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF62B1A265A601E0077B472 /* SyncGithooksDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF62B19265A601E0077B472 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF62B23265A60200077B472 /* Assets.xcassets in Resources */,
+				8CF62B26265A60200077B472 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BADA80687AD425E3608DD3D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SyncGithooksDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF62B17265A601E0077B472 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF62B21265A601E0077B472 /* ViewController.swift in Sources */,
+				8CF62B1F265A601E0077B472 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8CF62B24265A60200077B472 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF62B25265A60200077B472 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF62B29265A60200077B472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8CF62B2A265A60200077B472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8CF62B2C265A60200077B472 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE9D13F90E375B7CE1DD6877 /* Pods-SyncGithooksDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SyncGithooksDemo/SyncGithooksDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncGithooksDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melon.SyncGithooksDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8CF62B2D265A60200077B472 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AA294FB6254509D968E1BCB /* Pods-SyncGithooksDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SyncGithooksDemo/SyncGithooksDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = SyncGithooksDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melon.SyncGithooksDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF62B16265A601E0077B472 /* Build configuration list for PBXProject "SyncGithooksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF62B29265A60200077B472 /* Debug */,
+				8CF62B2A265A60200077B472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF62B2B265A60200077B472 /* Build configuration list for PBXNativeTarget "SyncGithooksDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF62B2C265A60200077B472 /* Debug */,
+				8CF62B2D265A60200077B472 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF62B13265A601E0077B472 /* Project object */;
+}
